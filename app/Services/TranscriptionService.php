@@ -11,7 +11,7 @@ class TranscriptionService
     public function getText($downloadUrl)
 	{
 	    // Отправляю файл в сервис
-        $token = '7c824320ed4c54d46ada8e8b0c8b736c16c1ecfc';
+       
     
         $header = [
             'Authorization: Token ' . $token,
